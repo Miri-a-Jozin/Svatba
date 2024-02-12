@@ -1,0 +1,263 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: JosefinSans-Light;
+}
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url(fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url(fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/Dancing_Script/DancingScript-VariableFont_wght.ttf);
+}
+
+
+
+@media screen and (min-width:140vh) {
+    body{
+        background-color: #DDE5E8;
+        display: grid;
+        grid-template-columns: 20svw auto;
+        column-gap: 0%;
+    }
+
+
+
+    .sidebar{
+        background-color: black;
+        min-height: 100svh;
+        max-width: 20svw;
+        min-width: fit-content;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: start;
+    }
+    .sidebar ul{
+        list-style-type: none;
+        font-size: 3vh;
+        position: sticky;
+        top: 0rem;
+    }
+    .sidebar .Menu li{
+        min-height: 7vh;
+        min-width: 15vw;
+        text-transform: uppercase;
+    }
+    .sidebar .Menu a{
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .sidebar .Menu li:hover{
+        font-size: 4vh;
+    }
+    .sidebar .Logo{
+        margin: 20%;
+        margin-bottom: 40vh;
+        min-height: 10vh;
+        max-width: 12vw;
+        font-size: 10vh;
+    }
+    .sidebar .Logo a{
+        color: white;
+        text-decoration: none;
+    }
+    .sidebar .active{
+        font-size: 4vh;
+    }
+
+
+
+    .Úvod{
+        background-image: url("images/Lavička.jpg");
+        background-repeat: no-repeat;
+        background-size: 97%;
+        background-position: center;
+        min-height: 65svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        text-align: center;
+    }
+    .Úvod h1{
+        font-family: DancingScript;
+        font-size: 15vw;
+        color: white;
+    }
+    .Úvod .Mezera{
+        background-color: #DDE5E8;
+        height: 2vh;
+        width: 100%;
+    }
+
+
+
+    .Datum{
+        min-height: 35svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 0.5rem;
+        border-bottom: solid 0.3rem;
+    }
+    .Datum h2{
+        font-size: 5vh;
+    }
+    .Datum h3{
+        font-size: 3vh;
+        min-height: 7vh;
+    }
+    .Datum h1{
+        font-family: JosefinSans-Bold;
+        text-transform: uppercase;
+        font-size: 7vh;
+    }
+}
+
+
+
+@media screen and (max-width:140vh) {
+    body{
+        background-color: #DDE5E8;
+    }
+
+
+
+    .sidebar{
+        background-color: black;
+        min-width: 100vw;
+        max-height: 10svh;
+        height: auto;
+    }
+    .sidebar ul{
+        display: flex;
+        align-items: center;
+        font-size: 2.5vh;
+        list-style-type: none;
+        background-color: black;
+        margin-right: 5vw;
+    }
+    .sidebar .Menu{
+        display: grid;
+        grid-template-columns: repeat(3, 100fr);
+        column-gap: 5vw;
+    }
+    .sidebar .Menu a{
+        color: white;
+        text-decoration: none;
+    }
+    .sidebar .Logo{
+        margin: 1vh 5vw 1vh 2vw;
+        font-size: 8vh;
+    }
+    .sidebar .Logo a{
+        color: white;
+        text-decoration: none;
+    }
+
+
+
+    .Úvod{
+        background-image: url("images/Lavička.jpg");
+        background-repeat: no-repeat;
+        background-size: 97%;
+        background-position: center;
+        min-height: 35svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        text-align: center;
+    }
+    .Úvod h1{
+        font-family: DancingScript;
+        font-size: 15vw;
+        color: white;
+    }
+    .Úvod .Mezera{
+        background-color: #DDE5E8;
+        height: 2vh;
+        width: 100%;
+    }
+
+
+
+    .Datum{
+        min-height: 50svh;
+        display: flex;
+        flex-direction: column;
+        justify-content: baseline;
+        text-align: center;
+        gap: 0.5rem;
+        margin-top: 2vh;
+        border-bottom: solid 0.3rem;
+    }
+    .Datum h2{
+        font-size: 5vh;
+    }
+    .Datum h3{
+        font-size: 3vh;
+        min-height: 20vh;
+    }
+    .Datum h1{
+        font-family: JosefinSans-Bold;
+        text-transform: uppercase;
+        font-size: 7vh;
+    }
+}
+
+
+
+.Verš{
+    min-height: 10svh;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    text-align: center;
+    gap: 1rem;
+    padding: 5%;
+}
+.Verš h3{
+    font-family: DancingScript;
+    font-size: 8vh;
+}
+.Verš h4{
+    font-size: 3vh;
+}
+
+
+
+.Foto{
+    max-width: 100%;
+    min-height: 90svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+.Foto .W1, .Foto .W2, .Foto .W3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+.Foto .H1, .Foto .H2, .Foto .H3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+.Foto .W1 img, .Foto .W2 img, .Foto .W3 img{
+    max-width: 40svh;
+}
+.Foto .H1 img, .Foto .H2 img, .Foto .H3 img{
+    max-height: 60svh;
+}

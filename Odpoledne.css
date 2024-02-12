@@ -1,0 +1,201 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: JosefinSans-Light;
+}
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url(fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url(fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/Dancing_Script/static/DancingScript-Regular.ttf);
+}
+
+
+
+@media screen and (min-width:140vh) {
+    body{
+        background-color: #DDE5E8;
+        height: 200svh;
+        display: grid;
+        grid-template-columns: 20svw auto;
+        column-gap: 0%;
+    }
+
+
+
+    .sidebar{
+        background-color: black;
+        min-height: 100svh;
+        width: 20svw;
+        min-width: fit-content;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        align-items: start;
+    }
+    .sidebar ul{
+        list-style-type: none;
+        font-size: 3vh;
+        position: sticky;
+        top: 0rem;
+    }
+    .sidebar .Menu li{
+        min-height: 7vh;
+        min-width: 15vw;
+        text-transform: uppercase;
+    }
+    .sidebar .Menu a{
+        color: white;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .sidebar .Menu li:hover{
+        font-size: 4vh;
+    }
+    .sidebar .Logo{
+        margin: 20%;
+        margin-bottom: 40vh;
+        min-height: 10vh;
+        max-width: 12vw;
+        font-size: 10vh;
+    }
+    .sidebar .Logo a{
+        color: white;
+        text-decoration: none;
+    }
+    .sidebar .active{
+        font-size: 4vh;
+    }
+}
+
+
+
+@media screen and (max-width:140vh) {
+    body{
+        background-color: #DDE5E8;
+        height: 200svh;
+    }
+
+
+
+    .sidebar{
+        background-color: black;
+        min-width: 100vw;
+        height: auto;
+    }
+    .sidebar ul{
+        display: flex;
+        align-items: center;
+        font-size: 2.5vh;
+        list-style-type: none;
+        background-color: black;
+    }
+    .sidebar .Menu{
+        display: grid;
+        grid-template-columns: repeat(4, 100fr);
+        column-gap: 5vw;
+    }
+    .sidebar .Menu a{
+        color: white;
+        text-decoration: none;
+    }
+    .sidebar .Logo{
+        margin: 1vh 5vw 1vh 2vw;
+        font-size: 8vh;
+    }
+    .sidebar .Logo a{
+        color: white;
+        text-decoration: none;
+    }
+}
+
+
+.Verš{
+    min-height: 10svh;
+    padding: 5%;
+    margin: 0% 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: solid 0.3rem;
+}
+.Verš h3{
+    font-family: DancingScript;
+    font-size: 8vh;
+}
+.Verš h4{
+    font-size: 3vh;
+}
+
+
+
+.Nadpis{
+    min-height: 25svh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0% 5%;
+}
+.Nadpis h1{
+    font-family: JosefinSans-Bold;
+    font-size: 5vh;
+    text-transform: uppercase;
+}
+
+.Info-Odpoledne{
+    min-height: 70svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2vh 0%;
+    margin: 0% 5%;
+    gap: 5rem;
+    border-bottom: solid 0.3rem;
+    border-top: solid 0.3rem;
+}
+.Info-Odpoledne .Mapa{
+    aspect-ratio: 4/3;
+    width: 80vh;
+    max-width: 80%;
+    align-items: center;
+}
+.Info-Odpoledne .Kdy-Kde{
+    display: grid;
+    gap: 5rem;
+    text-align: center;
+}
+.Info-Odpoledne .Kdy-Kde h2{
+    font-family: DancingScript;
+    font-size: 4vh;
+    margin-bottom: 5%;
+}
+.Info-Odpoledne .Kdy-Kde h4{
+    font-size: 3vh;
+}
+
+
+
+.Info-Bude{
+    min-height: 50svh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 0% 5%;
+}
+.Info-Bude h1{
+    font-family: JosefinSans-Bold;
+    font-size: 5vh;
+    text-transform: uppercase;
+}
