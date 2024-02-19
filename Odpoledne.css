@@ -82,7 +82,7 @@ body{
 
 
 
-.Info-Obřad{
+.Info-After{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -90,43 +90,45 @@ body{
     text-align: center;
     gap: 1rem;
 }
-.Info-Obřad .Nadpis h1{
-    font-family: josefinSans-Light;
-    font-size: 3.5vh;
-    text-transform: uppercase;
-    max-width: 60vh;
+.Info-After .MJ img{
+    width: 40svh;
+    max-width: 100vw;
+    margin-top: 8rem;
 }
-.Info-Obřad .Úvod-Text h2{
+.Info-After .Úvod-Text h2{
     font-family: JosefinSans-Light;
     font-size: 3vh;
     max-width: 100vh;
-    margin: 0% 8vh 8vh 8vh;
+    margin: 0% 2rem 8vh 2rem;
 }
-.Info-Obřad .MJ img{
-    width: 40svh;
-    max-width: 100vw;
+.Info-After .Nadpis h1{
+    font-family: josefinSans-Light;
+    font-size: 3.5vh;
+    text-transform: uppercase;
+    max-width: 100vh;
+    margin: 1rem;
 }
-.Info-Obřad .Mapa{
+.Info-After .Mapa{
     width: 100%;
     height: 40vh;
 }
-.Info-Obřad .Kdy-Kde{
+.Info-After .Kdy-Kde{
     min-width: 60vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
-.Info-Obřad .Kdy-Kde h2{
+.Info-After .Kdy-Kde h2{
     font-family: DancingScript;
     font-size: 3vh;
 }
-.Info-Obřad .Kdy-Kde h4{
+.Info-After .Kdy-Kde h4{
     font-size: 3vh;
 }
-.Info-Obřad .Kdy, .Info-Obřad .Kde{
+.Info-After .Kdy, .Info-After .Kde{
     margin: 5vh;
 }
-.Info-Obřad .Info-Bude{
+.Info-After .Info-Bude{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -135,7 +137,7 @@ body{
     min-height: 50vh;
     gap: 2vh;
 }
-.Info-Obřad .Info-Bude h2{
+.Info-After .Info-Bude h2{
     font-size: 3vh;
     max-width: 100vh;
     margin: 0% 8vh 20vh 8vh;
