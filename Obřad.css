@@ -71,10 +71,10 @@ body{
     text-decoration: none;
     font-family: EyesomeScript;
 }
+.bar .Menu a:hover{
+    font-size: 4vh;
+}
 @media screen and (min-width: 80vh){
-    .bar .Menu a:hover{
-        font-size: 4vh;
-    }
     .bar .active{
     font-size: 4vh;
     }
@@ -92,18 +92,18 @@ body{
 }
 .Info-Obřad .MJ img{
     width: 40svh;
-    max-width: 60vw;
+    max-width: 80vw;
     margin-top: 8rem;
 }
 .Info-Obřad .Úvod-Text h2{
     font-family: JosefinSans-Light;
-    font-size: 2rem;
+    font-size: 3vh;
     max-width: 100vh;
     margin: 0% 2rem 8vh 2rem;
 }
 .Info-Obřad .Nadpis h1{
     font-family: josefinSans-Light;
-    font-size: 3rem;
+    font-size: 3.5vh;
     text-transform: uppercase;
     margin: 1rem;
 }
@@ -119,10 +119,10 @@ body{
 }
 .Info-Obřad .Kdy-Kde h2{
     font-family: DancingScript;
-    font-size: 2rem;
+    font-size: 3vh;
 }
 .Info-Obřad .Kdy-Kde h4{
-    font-size: 2rem;
+    font-size: 3vh;
 }
 .Info-Obřad .Kdy, .Info-Obřad .Kde{
     margin: 5vh;
@@ -137,7 +137,7 @@ body{
     gap: 2vh;
 }
 .Info-Obřad .Info-Bude h2{
-    font-size: 2rem;
+    font-size: 3vh;
     max-width: 100vh;
     margin: 0% 8vh 20vh 8vh;
 }
