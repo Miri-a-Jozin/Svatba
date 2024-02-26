@@ -71,10 +71,10 @@ body{
     text-decoration: none;
     font-family: EyesomeScript;
 }
-.bar .Menu a:hover{
-    font-size: 4vh;
-}
 @media screen and (min-width: 80vh){
+    .bar .Menu a:hover{
+        font-size: 4vh;
+    }
     .bar .active{
     font-size: 4vh;
     }
@@ -121,12 +121,12 @@ body{
 }
 .Verš h3{
     font-family: DancingScript;
-    font-size: 8vh;
+    font-size: 6rem;
     margin-bottom: 1rem;
 }
 .Verš h4{
     font-family: DancingScript;
-    font-size: 3vh;
+    font-size: 3rem;
 }
 
 
@@ -140,12 +140,12 @@ body{
     margin: 8rem 2rem;
 }
 .Přivítání h3{
-    font-size: 2.5vh;
+    font-size: 2rem;
     max-width: 100vh;
 }
 .Přivítání .MJ img{
     width: 40svh;
-    max-width: 80vw;
+    max-width: 60vw;
 }
 
 
