@@ -116,17 +116,18 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     text-align: center;
     padding: 5rem;
 }
 .Verš h3{
     font-family: DancingScript;
-    font-size: 8vh;
+    font-size: calc(3vh + 3.5rem);
     margin-bottom: 1rem;
 }
 .Verš h4{
     font-family: DancingScript;
-    font-size: 3vh;
+    font-size: calc(1vh + 1.5rem);
 }
 
 
@@ -140,12 +141,12 @@ body{
     margin: 8rem 2rem;
 }
 .Přivítání h3{
-    font-size: 2.5vh;
+    font-size: calc(1vh + 1rem);
     max-width: 100vh;
 }
 .Přivítání .MJ img{
     width: 40svh;
-    max-width: 80vw;
+    max-width: 70vw;
 }
 
 
