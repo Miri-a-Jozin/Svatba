@@ -71,13 +71,22 @@ body{
     text-decoration: none;
     font-family: EyesomeScript;
 }
-.bar .Menu a:hover{
-    font-size: 4vh;
-}
 @media screen and (min-width: 80vh){
     .bar .active{
     font-size: 4vh;
     }
+    .bar .Menu a:hover{
+        font-size: 4vh;
+    }
+    .Info-Obřad .Úvod-Text h2{
+        font-size: 1.5rem;
+    }
+}
+@media screen and (max-width: 80vh){
+    .Info-Obřad .Úvod-Text h2{
+        font-size: 2rem;
+    }
+
 }
 
 
@@ -92,18 +101,17 @@ body{
 }
 .Info-Obřad .MJ img{
     width: 40svh;
-    max-width: 70vw;
+    max-width: 50vw;
     margin-top: 8rem;
 }
 .Info-Obřad .Úvod-Text h2{
     font-family: JosefinSans-Light;
-    font-size: calc(1vh + 1rem);
     max-width: 100vh;
-    margin: 0% 2rem 8vh 2rem;
+    margin: 0rem 2rem 8vh 2rem;
 }
 .Info-Obřad .Nadpis h1{
     font-family: josefinSans-Light;
-    font-size: calc(2vh + 1rem);
+    font-size: calc(2.5vh + 1.5vw);
     text-transform: uppercase;
     margin: 1rem;
 }
@@ -137,7 +145,8 @@ body{
     gap: 2vh;
 }
 .Info-Obřad .Info-Bude h2{
-    font-size: calc(1vh + 1rem);
+    font-family: JosefinSans-Light;
+    font-size: calc(1vh + 1vw);
     max-width: 100vh;
     margin: 0% 8vh 20vh 8vh;
 }

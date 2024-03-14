@@ -71,12 +71,34 @@ body{
     text-decoration: none;
     font-family: EyesomeScript;
 }
-.bar .Menu a:hover{
-    font-size: 4vh;
-}
 @media screen and (min-width: 80vh){
     .bar .active{
     font-size: 4vh;
+    }
+    .bar .Menu a:hover{
+        font-size: 4vh;
+    }
+
+    .Přivítání h3{
+        font-size: 1.5rem;
+    }
+    .Verš h3{
+        font-size: 5rem;
+    }
+    .Verš h4{
+        font-family: DancingScript;
+        font-size: 2rem;
+    }
+}
+@media screen and (max-width: 80vh){
+    .Přivítání h3{
+        font-size: 2rem;
+    }
+    .Verš h3{
+        font-size: 6.5rem;
+    }
+    .Verš h4{
+        font-size: 2.5rem;
     }
 }
 
@@ -111,26 +133,6 @@ body{
 
 
 
-.Verš{
-    min-height: 10svh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 5rem;
-}
-.Verš h3{
-    font-family: DancingScript;
-    font-size: calc(3vh + 3.5rem);
-    margin-bottom: 1rem;
-}
-.Verš h4{
-    font-family: DancingScript;
-    font-size: calc(1vh + 1.5rem);
-}
-
-
 .Přivítání{
     display: flex;
     flex-direction: column;
@@ -138,15 +140,32 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 8rem 2rem;
+    margin: 8rem 4rem 4rem 4rem;
 }
 .Přivítání h3{
-    font-size: calc(1vh + 1rem);
     max-width: 100vh;
 }
 .Přivítání .MJ img{
     width: 40svh;
-    max-width: 70vw;
+    max-width: 50vw;
+}
+
+
+
+.Verš{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 5rem;
+}
+.Verš h3{
+    font-family: DancingScript;
+    margin-bottom: 1rem;
+}
+.Verš h4{
+    font-family: DancingScript;
 }
 
 
@@ -158,6 +177,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    margin-top: 5rem;
     margin-bottom: 5rem;
 }
 .Foto .W1, .Foto .W2, .Foto .W3{
