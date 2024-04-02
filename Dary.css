@@ -78,19 +78,17 @@ body{
     .bar .Menu a:hover{
         font-size: 4vh;
     }
-    .Info-Obřad .Úvod-Text h2{
-        font-size: 1.5rem;
+    .Info .Úvod-Text h2{
+        font-size: 1.5vw;
     }
 }
 @media screen and (max-width: 80vh){
-    .Info-Obřad .Úvod-Text h2{
-        font-size: 1.4rem;
+    .Info .Úvod-Text h2{
+        font-size: 2.5vw;
     }
 }
 
-
-
-.Info-Obřad{
+.Info{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,54 +96,92 @@ body{
     text-align: center;
     gap: 2rem;
 }
-.Info-Obřad .MJ img{
+.Info .MJ img{
     width: 40svh;
     max-width: 50vw;
     margin-top: 8rem;
 }
-.Info-Obřad .Úvod-Text h2{
+.Info .Úvod-Text{
+    margin-bottom: 8vh;
+}
+.Info .Úvod-Text h2{
     font-family: JosefinSans-Light;
     max-width: 100vh;
-    margin: 0rem 2rem 8vh 2rem;
+    margin: 0rem 2rem;
 }
-.Info-Obřad .Nadpis h1{
+.Info .Úvod-Text h2 b{
+    font-family: JosefinSans-Bold;
+}
+.Info .Nadpis h1{
     font-family: josefinSans-Light;
     font-size: calc(2.5vh + 1.5vw);
     text-transform: uppercase;
     margin: 1rem;
 }
-.Info-Obřad .Mapa{
-    width: 100%;
-    height: 40vh;
+
+
+
+.Dary{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    margin: 2rem;
 }
-.Info-Obřad .Kdy-Kde{
-    min-width: 60vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.Dary a{
+    text-decoration: none;
+    color: black;
 }
-.Info-Obřad .Kdy-Kde h2{
-    font-family: DancingScript;
-    font-size: calc(2vh + 0.5rem);
-}
-.Info-Obřad .Kdy-Kde h4{
-    font-size: calc(2vh + 0.5rem);
-}
-.Info-Obřad .Kdy, .Info-Obřad .Kde{
-    margin: 5vh;
-}
-.Info-Obřad .Info-Bude{
+.Dar{
+    width: cover;
+    aspect-ratio: 2/3;
+    margin: 2rem;
+    padding: 1rem;
+
+    border: solid 1px;
+    border-radius: 1rem;
+
+    transition: 0.2s;
+
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
-    min-height: 50vh;
-    gap: 2vh;
 }
-.Info-Obřad .Info-Bude h2{
-    font-family: JosefinSans-Light;
-    font-size: calc(1vh + 1vw);
-    max-width: 100vh;
-    margin: 0% 8vh 20vh 8vh;
+.Dar:Hover{
+    margin: 1.9rem;
+    padding: 1.1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+.Dar .Foto{
+    width: 90%;
+    height: 40%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.Dar h2{
+    font-size: 150%;
+    margin: 0rem 1rem 1rem 1rem;
+}
+.Dar h3{
+    font-family: JosefinSans-Bold;
+    font-size: 200%;
+    margin: 0rem 1rem 2rem 1rem;
+}
+
+
+
+.Dar.I .Foto{
+    background-image: url(images/Dary/Toustovač.png);
+}
+.Dar.II .Foto{
+    background-image: url(images/Dary/Victorinox\ Velký.png);
+}
+.Dar.III .Foto{
+    background-image: url(images/Dary/Victorinox\ Malý.png);
+}
+.Dar.IV .Foto{
+    background-image: url(images/Dary/Victorinox\ na\ rajčata.png);
+}
+.Dar.V .Foto{
+    background-image: url(images/Dary/Microplane.png);
 }

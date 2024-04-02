@@ -5,23 +5,23 @@
 }
 @font-face {
     font-family: JosefinSans-Light;
-    src: url(fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+    src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
 }
 @font-face {
     font-family: JosefinSans-Bold;
-    src: url(fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+    src: url(fonts/Josefin_Sans/JosefinSans-SemiBold.ttf);
 }
 @font-face {
     font-family: EyesomeScript;
-    src: url(fonts/Eyesome/Eyesome/Eyesome\ Script.otf);
+    src: url(fonts/Eyesome/Eyesome\ Script.otf);
 }
 @font-face {
     font-family: EyesomeRegular;
-    src: url(fonts/Eyesome/Eyesome/Eyesome\ Regular.otf);
+    src: url(fonts/Eyesome/Eyesome\ Regular.otf);
 }
 @font-face {
     font-family: DancingScript;
-    src: url(fonts/Dancing_Script/static/DancingScript-SemiBold.ttf);
+    src: url(fonts/Dancing_Script/DancingScript-SemiBold.ttf);
 }
 
 
@@ -79,6 +79,13 @@ body{
         font-size: 4vh;
     }
 }
+@media screen and (max-width: 80vh){
+    .Info-After .Úvod-Text h2{
+        font-size: 1.4rem;
+    }
+
+}
+
 
 
 
@@ -97,9 +104,11 @@ body{
 }
 .Info-After .Úvod-Text h2{
     font-family: JosefinSans-Light;
-    font-size: calc(0.5vh + 1.3vw);
     max-width: 100vh;
     margin: 0% 2rem 8vh 2rem;
+}
+.Info-After .Úvod-Text h2 b{
+    font-family: JosefinSans-Bold;
 }
 .Info-After .Nadpis h1{
     font-family: josefinSans-Light;

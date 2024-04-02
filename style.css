@@ -5,23 +5,23 @@
 }
 @font-face {
     font-family: JosefinSans-Light;
-    src: url(fonts/Josefin_Sans/static/JosefinSans-Light.ttf);
+    src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
 }
 @font-face {
     font-family: JosefinSans-Bold;
-    src: url(fonts/Josefin_Sans/static/JosefinSans-Bold.ttf);
+    src: url(fonts/Josefin_Sans/JosefinSans-Bold.ttf);
 }
 @font-face {
     font-family: EyesomeScript;
-    src: url(fonts/Eyesome/Eyesome/Eyesome\ Script.otf);
+    src: url(fonts/Eyesome/Eyesome\ Script.otf);
 }
 @font-face {
     font-family: EyesomeRegular;
-    src: url(fonts/Eyesome/Eyesome/Eyesome\ Regular.otf);
+    src: url(fonts/Eyesome/Eyesome\ Regular.otf);
 }
 @font-face {
     font-family: DancingScript;
-    src: url(fonts/Dancing_Script/static/DancingScript-SemiBold.ttf);
+    src: url(fonts/Dancing_Script/DancingScript-SemiBold.ttf);
 }
 
 
@@ -92,7 +92,7 @@ body{
 }
 @media screen and (max-width: 80vh){
     .Přivítání h3{
-        font-size: 2rem;
+        font-size: 1rem;
     }
     .Verš h3{
         font-size: 6.5rem;
