@@ -2,8 +2,13 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
+}
+html, body {
     text-rendering: geometricPrecision;
 }
+
+
+
 @font-face {
     font-family: JosefinSans-Light;
     src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
@@ -79,15 +84,9 @@ body{
     .bar .Menu a:hover{
         font-size: 4vh;
     }
-    .Info .Úvod-Text h2{
-        font-size: 1.5vw;
-    }
 }
-@media screen and (max-width: 80vh){
-    .Info .Úvod-Text h2{
-        font-size: 2.5vw;
-    }
-}
+
+
 
 .Info{
     display: flex;
@@ -97,24 +96,32 @@ body{
     text-align: center;
     gap: 2rem;
 }
+
+
+
 .Info .MJ img{
     width: 40svh;
     max-width: 50vw;
     margin-top: 8rem;
 }
+
+
+
 .Info .Úvod-Text{
     margin-bottom: 8vh;
 }
 .Info .Úvod-Text h2{
-    font-family: JosefinSans-Light;
+    font-size: calc(1vh + 1vw);
     max-width: 100vh;
     margin: 0rem 2rem;
 }
 .Info .Úvod-Text h2 b{
     font-family: JosefinSans-Bold;
 }
+
+
+
 .Info .Nadpis h1{
-    font-family: josefinSans-Light;
     font-size: calc(2.5vh + 1.5vw);
     text-transform: uppercase;
     margin: 1rem;
@@ -123,8 +130,10 @@ body{
 
 
 .Dary{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(40vh, 1fr));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     margin: 2rem;
 }
 .Dary a{
@@ -135,7 +144,7 @@ body{
 
 
 .Dar{
-    width: cover;
+    width: 32vh;
     aspect-ratio: 2/3;
     margin: 2rem;
     padding: 1rem;
@@ -169,12 +178,12 @@ body{
 
 
 .Dar h2{
-    font-size: 150%;
+    font-size: 3vh;
     margin: 0rem 1rem 1rem 1rem;
 }
 .Dar h3{
     font-family: JosefinSans-Bold;
-    font-size: 200%;
+    font-size: 4vh;
     margin: 0rem 1rem 2rem 1rem;
 }
 
@@ -190,8 +199,11 @@ body{
     background-image: url(images/Dary/Victorinox\ Malý.png);
 }
 .Dar.IV .Foto{
-    background-image: url();
+    background-image: url(images/Dary/Varná\ konvice.png);
 }
 .Dar.V .Foto{
     background-image: url(images/Dary/Microplane.png);
+}
+.Dar.VI .Foto{
+    background-image: url(images/Dary/OP\ Žárovka.png);
 }

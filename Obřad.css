@@ -2,8 +2,13 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
+}
+html, body {
     text-rendering: geometricPrecision;
 }
+
+
+
 @font-face {
     font-family: JosefinSans-Light;
     src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
@@ -102,7 +107,7 @@ body{
 
 
 .Info-Obřad .Úvod-Text h2{
-    font-size: calc(1.8vh + 0.5vw);
+    font-size: calc(1vh + 1vw);
     max-width: 100vh;
     margin: 0rem 2rem 8vh 2rem;
     text-align: center;
@@ -132,10 +137,10 @@ body{
 }
 .Info-Obřad .Kdy-Kde h2{
     font-family: DancingScript;
-    font-size: calc(2vh + 0.5rem);
+    font-size: calc(2vh + 0.5vw);
 }
 .Info-Obřad .Kdy-Kde h4{
-    font-size: calc(2vh + 0.5rem);
+    font-size: calc(2vh + 0.5vw);
 }
 .Info-Obřad .Kdy, .Info-Obřad .Kde{
     margin: 5vh;
@@ -166,7 +171,7 @@ body{
     width: 100%;
 }
 .Info-Obřad .Doprava h2{
-    font-size: calc(1.8vh + 0.5vw);
+    font-size: calc(1vh + 1vw);
     max-width: 70vh;
 }
 
@@ -191,7 +196,7 @@ body{
 }
 .Info-Obřad .Info-Bude h2{
     font-family: JosefinSans-Light;
-    font-size: calc(1.8vh + 0.5vw);
+    font-size: calc(1vh + 1vw);
     max-width: 100vh;
     margin: 0% 8vh 20vh 8vh;
 }

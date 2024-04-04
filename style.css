@@ -2,8 +2,13 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
+}
+html, body {
     text-rendering: geometricPrecision;
 }
+
+
+
 @font-face {
     font-family: JosefinSans-Light;
     src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
