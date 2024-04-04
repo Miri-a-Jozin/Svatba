@@ -2,10 +2,9 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
+    -webkit-text-stroke: 0px;
 }
-html, body {
-    text-rendering: geometricPrecision;
-}
+
 
 
 
