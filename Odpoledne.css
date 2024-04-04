@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: JosefinSans-Light;
+    text-rendering: geometricPrecision;
+}
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url(fonts/Josefin_Sans/JosefinSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: EyesomeScript;
+    src: url(fonts/Eyesome/Eyesome\ Script.otf);
+}
+@font-face {
+    font-family: EyesomeRegular;
+    src: url(fonts/Eyesome/Eyesome\ Regular.otf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/Dancing_Script/DancingScript-SemiBold.ttf);
+}
+
+
+
+body{
+    background-color: white;
+}
+
+
+
+.bar{
+    background-color: white;
+    max-width: 100svw;
+    height: auto;
+    position: sticky;
+    top: 0%;
+}
+.bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    list-style-type: none;
+}
+.bar .Menu{
+    display: flex;
+    align-items: center;
+}
+.bar .Menu li{
+    width: 20vh;
+    max-width: 20vw;
+    margin: 2vh;
+    text-align: center;
+}
+.bar .Menu li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.bar .Logo{
+    margin: 0% 2vh;
+    font-size: 5vh;
+}
+.bar .Logo a{
+    color: black;
+    text-decoration: none;
+    font-family: EyesomeScript;
+}
+@media screen and (min-width: 80vh){
+    .bar .active{
+    font-size: 4vh;
+    }
+    .bar .Menu a:hover{
+        font-size: 4vh;
+    }
+}
+
+
+
+
+.Info-After{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 2rem;
+}
+
+
+
+.Info-After .MJ img{
+    width: 40svh;
+    max-width: 50vw;
+    margin-top: 8rem;
+}
+
+
+
+.Info-After .Úvod-Text h2{
+    font-size: calc(1.8vh + 0.5vw);
+    max-width: 100vh;
+    margin: 0% 2rem 8vh 2rem;
+}
+.Info-After .Úvod-Text h2 b{
+    font-family: JosefinSans-Bold;
+}
+
+
+
+.Info-After .Nadpis h1{
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    max-width: 100vh;
+    margin: 1rem;
+}
+.Info-After .Mapa{
+    width: 100%;
+    height: 40vh;
+}
+
+
+
+.Info-After .Kdy-Kde{
+    min-width: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.Info-After .Kdy-Kde h2{
+    font-family: DancingScript;
+    font-size: calc(2vh + 0.5rem);
+}
+.Info-After .Kdy-Kde h4{
+    font-size: calc(2vh + 0.5rem);
+}
+.Info-After .Kdy, .Info-After .Kde{
+    margin: 5vh;
+}
+
+
+
+.Info-After .Info-Bude{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 50vh;
+    gap: 2vh;
+}
+.Info-After .Info-Bude h2{
+    font-family: JosefinSans-Light;
+    font-size: calc(1.8vh + 0.5vw);
+    max-width: 100vh;
+    margin: 0% 8vh 20vh 8vh;
+}

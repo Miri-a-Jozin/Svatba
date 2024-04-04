@@ -1,0 +1,184 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: JosefinSans-Light;
+    text-rendering: geometricPrecision;
+}
+@font-face {
+    font-family: JosefinSans-Light;
+    src: url(fonts/Josefin_Sans/JosefinSans-Light.ttf);
+}
+@font-face {
+    font-family: JosefinSans-Bold;
+    src: url(fonts/Josefin_Sans/JosefinSans-Bold.ttf);
+}
+@font-face {
+    font-family: EyesomeScript;
+    src: url(fonts/Eyesome/Eyesome\ Script.otf);
+}
+@font-face {
+    font-family: EyesomeRegular;
+    src: url(fonts/Eyesome/Eyesome\ Regular.otf);
+}
+@font-face {
+    font-family: DancingScript;
+    src: url(fonts/Dancing_Script/DancingScript-SemiBold.ttf);
+}
+
+
+
+body{
+    background-color: white;
+}
+
+
+
+.bar{
+    background-color: white;
+    max-width: 100svw;
+    height: auto;
+    position: sticky;
+    top: 0%;
+}
+.bar ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 2.5vh;
+    list-style-type: none;
+}
+.bar .Menu{
+    display: flex;
+    align-items: center;
+}
+.bar .Menu li{
+    width: 20vh;
+    max-width: 20vw;
+    margin: 2vh;
+    text-align: center;
+}
+.bar .Menu li a{
+    color: black;
+    text-decoration: none;
+    transition: 0.2s;
+}
+.bar .Logo{
+    margin: 0% 2vh;
+    font-size: 5vh;
+}
+.bar .Logo a{
+    color: black;
+    text-decoration: none;
+    font-family: EyesomeScript;
+}
+@media screen and (min-width: 80vh){
+    .bar .active{
+        font-size: 4vh;
+    }
+    .bar .Menu a:hover{
+        font-size: 4vh;
+    }
+}
+
+
+
+
+.Úvod{
+    background-image: url("images/Palečky\ Úvod.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    aspect-ratio: 4/3;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+.Úvod h1{
+    font-family: EyesomeScript;
+    font-size: 11vw;
+    color: white;
+    max-height: 15vw;
+}
+.Úvod h2{
+    font-family: EyesomeRegular;
+    font-size: 5vw;
+    color: white;
+    position: relative;
+    right: 7vw;
+}
+
+
+
+.Přivítání{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 8rem 4rem 4rem 4rem;
+}
+.Přivítání h3{
+    max-width: 100vh;
+    font-size: calc(1.8vh + 0.5vw);
+}
+.Přivítání .MJ img{
+    width: 40svh;
+    max-width: 50vw;
+}
+
+
+
+.Verš{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 8rem 5rem;
+}
+.Verš h3{
+    font-family: DancingScript;
+    margin-bottom: 1rem;
+    font-size: calc(6vh + 2vw);
+}
+.Verš h4{
+    font-family: DancingScript;
+    font-size: calc(3vh + 1vw);
+}
+
+
+
+.Foto{
+    max-width: 100%;
+    min-height: 90svh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+.Foto .W1, .Foto .W2, .Foto .W3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+.Foto .H1, .Foto .H2, .Foto .H3{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+.Foto .W1 img, .Foto .W2 img, .Foto .W3 img{
+    max-width: 40svh;
+}
+.Foto .H1 img, .Foto .H2 img, .Foto .H3 img{
+    max-height: 60svh;
+}
