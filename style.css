@@ -2,7 +2,6 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
-    -webkit-text-stroke: 0px;
 }
 
 
@@ -36,14 +35,14 @@ body{
 
 
 
-.bar{
+.Bar{
     background-color: white;
     max-width: 100svw;
     height: auto;
     position: sticky;
     top: 0%;
 }
-.bar ul{
+.Bar ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,35 +50,35 @@ body{
     font-size: 2.5vh;
     list-style-type: none;
 }
-.bar .Menu{
+.Bar .Header{
     display: flex;
     align-items: center;
 }
-.bar .Menu li{
+.Bar .Header li{
     width: 20vh;
     max-width: 20vw;
     margin: 2vh;
     text-align: center;
 }
-.bar .Menu li a{
+.Bar .Header li a{
     color: black;
     text-decoration: none;
     transition: 0.2s;
 }
-.bar .Logo{
+.Bar .MiriJožin{
     margin: 0% 2vh;
     font-size: 5vh;
 }
-.bar .Logo a{
+.Bar .MiriJožin a{
     color: black;
     text-decoration: none;
     font-family: EyesomeScript;
 }
 @media screen and (min-width: 80vh){
-    .bar .active{
+    .Bar .active{
         font-size: 4vh;
     }
-    .bar .Menu a:hover{
+    .Bar .Header a:hover{
         font-size: 4vh;
     }
 }
@@ -87,7 +86,7 @@ body{
 
 
 
-.Úvod{
+.ÚvodFoto{
     background-image: url("images/Palečky\ Úvod.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,13 +98,13 @@ body{
     justify-content: center;
     text-align: center;
 }
-.Úvod h1{
+.ÚvodFoto .MiriJožin{
     font-family: EyesomeScript;
     font-size: 11vw;
     color: white;
     max-height: 15vw;
 }
-.Úvod h2{
+.ÚvodFoto .Datum{
     font-family: EyesomeRegular;
     font-size: 5vw;
     color: white;
@@ -124,11 +123,11 @@ body{
     text-align: center;
     margin: 8rem 4rem 4rem 4rem;
 }
-.Přivítání h3{
+.Přivítání p{
     max-width: 100vh;
     font-size: calc(1.8vh + 0.5vw);
 }
-.Přivítání .MJ img{
+.Přivítání .MJ-Line img{
     width: 40svh;
     max-width: 50vw;
 }
@@ -141,14 +140,14 @@ body{
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 8rem 5rem;
+    padding: 8rem 5rem 2rem 5rem;
 }
-.Verš h3{
+.Verš .Text{
     font-family: DancingScript;
     margin-bottom: 1rem;
     font-size: calc(6vh + 2vw);
 }
-.Verš h4{
+.Verš .Adresa{
     font-family: DancingScript;
     font-size: calc(3vh + 1vw);
 }
