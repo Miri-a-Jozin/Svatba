@@ -165,7 +165,7 @@ body{
     gap: 2vh;
 }
 .Info-Bude p{
-    font-size: calc(1vh + 1vw);
+    font-size: calc(1.8vh + 0.5vw);
     max-width: 100vh;
     margin: 0rem 8vh 20vh 8vh;
 }
