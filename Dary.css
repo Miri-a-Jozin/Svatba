@@ -109,7 +109,7 @@ body{
     margin-bottom: 8vh;
 }
 .Info .Úvod-Text p{
-    font-size: calc(1.2vh + 0.5vw);
+    font-size: calc(1.8vh + 0.5vw);
     max-width: 100vh;
     margin: 0rem 2rem;
 }
@@ -120,7 +120,6 @@ body{
 .Info .Nadpis p{
     font-size: calc(2.5vh + 1.5vw);
     text-transform: uppercase;
-    margin: 1rem;
 }
 
 
@@ -130,7 +129,6 @@ body{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin: 2rem;
 }
 .Dary a{
     text-decoration: none;
