@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
     font-family: JosefinSans-Light;
+    -webkit-text-stroke: 0px;
 }
 
 
@@ -118,11 +119,11 @@ body{
     text-align: center;
 }
 .Prosba p{
-    font-size: calc(1.8vh + 0.5vw);
+    font-size: calc(1vh + 1vw);
     max-width: 100vh;
-    margin: 0rem 2rem 8vh 2rem;
+    margin: 0% 2rem 8vh 2rem;
 }
-.Prosba b{
+.Prosba p b{
     font-family: JosefinSans-Bold;
 }
 
@@ -167,5 +168,5 @@ body{
 .Info-Bude p{
     font-size: calc(1vh + 1vw);
     max-width: 100vh;
-    margin: 0rem 8vh 20vh 8vh;
+    margin: 0% 8vh 20vh 8vh;
 }
