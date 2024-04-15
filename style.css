@@ -138,7 +138,7 @@ body{
 }
 .Přivítání p{
     max-width: 100vh;
-    font-size: calc(1.8vh + 0.7vw);
+    font-size: calc(2vh + 0.5vw);
 }
 .Přivítání .MJ-Line img{
     width: 40svh;
