@@ -106,7 +106,7 @@ body{
     text-align: center;
 }
 .Info .Úvod-Text p{
-    font-size: calc(2vh + 0.5vw);
+    font-size: calc(2.3vh + 0.5vw);
     max-width: 100vh;
     margin: 0rem 2rem 8vh 2rem;
 }

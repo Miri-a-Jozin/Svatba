@@ -104,7 +104,7 @@ body{
     text-align: center;
 }
 .Pozvání p{
-    font-size: calc(2vh + 0.5vw);
+    font-size: calc(2.3vh + 0.5vw);
     max-width: 100vh;
     margin: 0rem 2rem 8vh 2rem;
 }
@@ -132,7 +132,7 @@ body{
     font-family: DancingScript;
 }
 .Basic-Info .Info-Kdy-Kde p{
-    font-size: calc(2vh + 0.5vw);
+    font-size: calc(2.3vh + 0.5vw);
 }
 .Basic-Info .Kdy, .Basic-Info .Kde{
     margin: 5vh;
@@ -157,12 +157,12 @@ body{
 }
 .Doprava .Nadpis{
     font-family: JosefinSans-Bold;
-    font-size: calc(2vh + 1vw);
+    font-size: calc(2.5vh + 1.5vw);
     text-transform: uppercase;
     width: 100%;
 }
 .Doprava .Text{
-    font-size: calc(1.8vh + 0.7vw);
+    font-size: calc(2.3vh + 0.5vw);
     max-width: 70vh;
 }
 
@@ -175,6 +175,91 @@ body{
 
 
 
+.Dary{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.Dary .Left img{
+    max-height: 70vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+
+.Dary .Right{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+.Dary .Nadpis{
+    font-family: JosefinSans-Bold;
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    width: 100%;
+}
+.Dary .Text{
+    font-size: calc(2.3vh + 0.5vw);
+    max-width: 70vh;
+}
+
+.Dary a{
+    text-decoration: none;
+    color: black;
+}
+.Dary .SeznamDarů{
+    aspect-ratio: 3/1;
+    width: auto;
+    
+    border: solid 1px;
+    border-radius: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 1rem;
+    padding: 1rem;
+    transition: 0.2s;
+}
+.Dary .SeznamDarů p{
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    text-align: center;
+}
+.Dary a .SeznamDarů:hover{
+    margin: 0.8rem;
+    padding: 1.2rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+
+
+
+.QR-Code{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+
+    margin: 8vh 2rem 2rem 2rem;
+}
+.QR-Code img{
+    max-height: 50vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+}
+.QR-Code p{
+    font-size: calc(2.3vh + 0.5vw);
+}
+
+
+
 .Info-Bude{
     display: flex;
     justify-content: center;
@@ -183,7 +268,7 @@ body{
     gap: 2vh;
 }
 .Info-Bude p{
-    font-size: calc(1.8vh + 0.7vw);
+    font-size: calc(2.3vh + 0.5vw);
     max-width: 100vh;
     margin: 0rem 8vh 20vh 8vh;
 }
