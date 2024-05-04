@@ -80,6 +80,11 @@ body{
     .Bar .Header a:hover{
         font-size: 4vh;
     }
+
+    .DressCode .Barvy{
+        min-width: 70vh;
+        min-height: 30vh;
+    }
 }
 
 
@@ -284,6 +289,15 @@ body{
 .DressCode .Text{
     font-size: calc(2.5vh + 0.5vw);
     max-width: 70vh;
+}
+
+.DressCode .Barvy{
+    background-image: url(images/Barvy.jpeg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 100%;
 }
 
 .DressCode .Right img{
