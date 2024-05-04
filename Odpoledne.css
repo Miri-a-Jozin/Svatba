@@ -157,6 +157,110 @@ body{
 
 
 
+.Doprava{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.Doprava .Left{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+.Doprava .Nadpis{
+    font-family: JosefinSans-Bold;
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    width: 100%;
+}
+.Doprava .Text{
+    font-size: calc(2.5vh + 0.5vw);
+    max-width: 70vh;
+}
+
+.Doprava .Right img{
+    max-height: 70vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+
+
+
+.Občerstvení{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap-reverse;
+    padding: 2rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.Občerstvení .Left img{
+    max-height: 70vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+
+.Občerstvení .Right{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+.Občerstvení .Nadpis{
+    font-family: JosefinSans-Bold;
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    width: 100%;
+}
+.Občerstvení .Text{
+    font-size: calc(2.5vh + 0.5vw);
+    max-width: 70vh;
+}
+
+
+
+.DressCode{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.DressCode .Left{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+.DressCode .Nadpis{
+    font-family: JosefinSans-Bold;
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    width: 100%;
+}
+.DressCode .Text{
+    font-size: calc(2.5vh + 0.5vw);
+    max-width: 70vh;
+}
+
+.DressCode .Right img{
+    max-height: 70vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
+}
+
+
 .Info-Bude{
     display: flex;
     justify-content: center;

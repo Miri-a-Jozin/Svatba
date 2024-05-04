@@ -193,8 +193,12 @@ body{
     background-image: url(images/Dary/Varná\ konvice.png);
 }
 .Dar.V .Foto{
-    background-image: url(images/Dary/Microplane.png);
+    background-image: url(images/Dary/Porsche\ Dakar.webp);
+    border-radius: 1rem;
 }
 .Dar.VI .Foto{
+    background-image: url(images/Dary/Microplane.png);
+}
+.Dar.VII .Foto{
     background-image: url(images/Dary/OP\ Žárovka.png);
 }

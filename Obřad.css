@@ -251,11 +251,46 @@ body{
 }
 .QR-Code img{
     max-height: 50vh;
-    max-width: 80vw;
+    max-width: 60vw;
     border-radius: 1rem;
 }
 .QR-Code p{
     font-size: calc(2.5vh + 0.5vw);
+}
+
+
+
+.DressCode{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem;
+    column-gap: 8rem;
+    row-gap: 2rem;
+}
+
+.DressCode .Left{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+    gap: 2rem;
+}
+.DressCode .Nadpis{
+    font-family: JosefinSans-Bold;
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    width: 100%;
+}
+.DressCode .Text{
+    font-size: calc(2.5vh + 0.5vw);
+    max-width: 70vh;
+}
+
+.DressCode .Right img{
+    max-height: 70vh;
+    max-width: 80vw;
+    border-radius: 1rem;
+    box-shadow: 0.2rem 0.2rem 5px gray;
 }
 
 
