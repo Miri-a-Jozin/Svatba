@@ -225,6 +225,7 @@ body{
     border-radius: 1rem;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
@@ -232,8 +233,13 @@ body{
     padding: 1rem;
     transition: 0.2s;
 }
-.Dary .SeznamDarů p{
+.Dary .SeznamDarů .B{
     font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    text-align: center;
+}
+.Dary .SeznamDarů .S{
+    font-size: calc(1.5vh + 0.5vw);
     text-transform: uppercase;
     text-align: center;
 }
@@ -268,6 +274,7 @@ body{
 .DressCode{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-wrap: wrap;
     padding: 2rem;
     column-gap: 8rem;
@@ -296,8 +303,8 @@ body{
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
-    width: 100%;
-    height: 100%;
+    aspect-ratio: 16/9;
+    max-height: 20vh;
 }
 
 .DressCode .Right img{

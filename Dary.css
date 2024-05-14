@@ -105,10 +105,13 @@ body{
     justify-content: center;
     text-align: center;
 }
+.Info .Úvod-Text{
+    margin-bottom: 8vh;
+}
 .Info .Úvod-Text p{
     font-size: calc(2.5vh + 0.5vw);
     max-width: 100vh;
-    margin: 0rem 2rem 8vh 2rem;
+    margin: 0rem 2rem 1rem 2rem;
 }
 .Info .Úvod-Text p b{
     font-family: JosefinSans-Bold;
@@ -204,4 +207,14 @@ body{
 }
 .Dar.VIII .Foto{
     background-image: url(images/Dary/French\ Press.png);
+}
+.Dar.VIV .Foto{
+    background-image: url(images/Dary/Krabičky.png);
+}
+.Dar.X .Foto{
+    background-image: url(images/Dary/Flitrační\ konvice.png);
+}
+.Dar.XI .Foto{
+    background-image: url(images/Dary/Zámek.jpg);
+    border-radius: 1rem;
 }
