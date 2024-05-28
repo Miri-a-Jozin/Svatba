@@ -167,6 +167,7 @@ body{
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
+    margin: 0.5rem;
 }
 
 
@@ -187,10 +188,10 @@ body{
     background-image: url(images/Dary/Toustovač.png);
 }
 .Dar.II .Foto{
-    background-image: url(images/Dary/Victorinox\ Velký.png);
+    background-image: url(images/Dary/Cedník.png);
 }
 .Dar.III .Foto{
-    background-image: url(images/Dary/Victorinox\ Malý.png);
+    background-image: url(images/Dary/Náčiní.png);
 }
 .Dar.IV .Foto{
     background-image: url(images/Dary/Varná\ konvice.png);
@@ -203,7 +204,7 @@ body{
     background-image: url(images/Dary/Microplane.png);
 }
 .Dar.VII .Foto{
-    background-image: url(images/Dary/OP\ Žárovka.png);
+    background-image: url(images/Dary/Odměrka.png);
 }
 .Dar.VIII .Foto{
     background-image: url(images/Dary/French\ Press.png);
@@ -215,6 +216,38 @@ body{
     background-image: url(images/Dary/Flitrační\ konvice.png);
 }
 .Dar.XI .Foto{
+    background-image: url(images/Dary/Skleničky.png);
+    border-radius: 1rem;
+}
+.Dar.XII .Foto{
+    background-image: url(images/Dary/Hrníček.png);
+    border-radius: 1rem;
+}
+.Dar.XIII .Foto{
+    background-image: url(images/Dary/Victorinox\ na\ rajčata.png);
+    border-radius: 1rem;
+}
+.Dar.XIV .Foto{
+    background-image: url(images/Dary/Konvice\ na\ čaj.png);
+    border-radius: 1rem;
+}
+.Dar.XV .Foto{
     background-image: url(images/Dary/Zámek.jpg);
+    border-radius: 1rem;
+}
+.Dar.XVI .Foto{
+    background-image: url(images/Dary/Velký\ talíř.png);
+    border-radius: 1rem;
+}
+.Dar.XVII .Foto{
+    background-image: url(images/Dary/Hluboký\ talíř.png);
+    border-radius: 1rem;
+}
+.Dar.XVIII .Foto{
+    background-image: url(images/Dary/Malý\ talíř.png);
+    border-radius: 1rem;
+}
+.Dar.XIX .Foto{
+    background-image: url(images/Dary/Miska.png);
     border-radius: 1rem;
 }
