@@ -157,6 +157,29 @@ body{
 
 
 
+.Program{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+.Program .Nadpis{
+    font-size: calc(2.5vh + 1.5vw);
+    text-transform: uppercase;
+    margin: 1rem;
+    text-align: center;
+}
+.Program .Časy{
+    font-size: calc(2.5vh + 0.5vw);
+}
+.Program .Mezera{
+    margin-top: calc(2.5vh + 0.5vw);;
+}
+
+
+
 .Doprava{
     display: flex;
     justify-content: center;
@@ -261,15 +284,18 @@ body{
 }
 
 
-.Info-Bude{
+.Dotazy{
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: baseline;
     text-align: center;
     min-height: 50vh;
-    gap: 2vh;
+    gap: 0vh;
 }
-.Info-Bude p{
+.Dotazy p{
     font-size: calc(2.5vh + 0.5vw);
-    max-width: 100vh;
-    margin: 0rem 8vh 20vh 8vh;
+    margin: 0.2rem;
+}
+.Dotazy .Jméno{
+    margin-top: 8vh;
 }

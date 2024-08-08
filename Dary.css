@@ -217,37 +217,48 @@ body{
 }
 .Dar.XI .Foto{
     background-image: url(images/Dary/Skleničky.png);
-    border-radius: 1rem;
 }
 .Dar.XII .Foto{
     background-image: url(images/Dary/Hrníček.png);
-    border-radius: 1rem;
 }
 .Dar.XIII .Foto{
     background-image: url(images/Dary/Victorinox\ na\ rajčata.png);
-    border-radius: 1rem;
 }
 .Dar.XIV .Foto{
     background-image: url(images/Dary/Konvice\ na\ čaj.png);
-    border-radius: 1rem;
 }
 .Dar.XV .Foto{
     background-image: url(images/Dary/Zámek.jpg);
     border-radius: 1rem;
 }
 .Dar.XVI .Foto{
-    background-image: url(images/Dary/Velký\ talíř.png);
-    border-radius: 1rem;
+    background-image: url(images/Dary/Příbory.png);
 }
 .Dar.XVII .Foto{
-    background-image: url(images/Dary/Hluboký\ talíř.png);
-    border-radius: 1rem;
+    background-image: url(images/Dary/Velký\ talíř.png);
 }
 .Dar.XVIII .Foto{
-    background-image: url(images/Dary/Malý\ talíř.png);
-    border-radius: 1rem;
+    background-image: url(images/Dary/Hluboký\ talíř.png);
 }
-.Dar.XIX .Foto{
+.Dar.XVIV .Foto{
+    background-image: url(images/Dary/Malý\ talíř.png);
+}
+.Dar.XX .Foto{
     background-image: url(images/Dary/Miska.png);
-    border-radius: 1rem;
+}
+
+.Dotazy{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    text-align: center;
+    min-height: 50vh;
+    gap: 0vh;
+}
+.Dotazy p{
+    font-size: calc(2.5vh + 0.5vw);
+    margin: 0.2rem;
+}
+.Dotazy .Jméno{
+    margin-top: 8vh;
 }
