@@ -34,300 +34,170 @@ body{
 
 
 
-.Bar{
-    background-color: white;
-    max-width: 100svw;
-    height: auto;
-    position: sticky;
-    top: 0%;
+@media (min-width: 155vh) {
+    .Bar{
+        background-color: white;
+        max-width: 100svw;
+        height: auto;
+        position: sticky;
+        top: 0%;
+        z-index: 1;
+    }
+    .Bar ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 2.5vh;
+        list-style-type: none;
+    }
+    .Bar .Header{
+        display: flex;
+        align-items: center;
+    }
+    .Bar .Header li{
+        width: 20vh;
+        max-width: 20vw;
+        margin: 2vh;
+        text-align: center;
+    }
+    .Bar .Header li a{
+        color: black;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .Bar .Header a:hover {
+        font-size: 4vh;
+    }
+    .Bar .active {
+        font-size: 4vh;
+    }
+    .Bar .MiriJožin{
+        margin: 0% 2vh;
+        font-size: 5vh;
+    }
+    .Bar .MiriJožin a{
+        color: black;
+        text-decoration: none;
+        font-family: EyesomeScript;
+    }
+    .Bar .Menu{
+        display: none;
+    }
 }
-.Bar ul{
+
+
+@media (max-width: 155vh){
+    .Bar{
+        background-color: white;
+        max-width: 100svw;
+        height: auto;
+        position: sticky;
+        top: 0%;
+        z-index: 10;
+    }
+    .Bar ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 3vh;
+        list-style-type: none;
+    }
+    .Bar .MiriJožin{
+        margin: 0% 2vh;
+        font-size: 5vh;
+    }
+    .Bar .MiriJožin a{
+        color: black;
+        text-decoration: none;
+        font-family: EyesomeScript;
+    }
+    .Bar .MenuIcon{
+        width: 2.5rem;
+        height: 5vh;
+        background-image: url("images/menu.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 1.5rem;
+    }
+
+    .Bar .Navbar{
+        height: 0%;
+        overflow: hidden;
+        transition: 1s;
+        position: absolute;
+        right: 0;
+        background-image: linear-gradient(white 30%, rgba(255, 255, 255, 0.322));
+        backdrop-filter: blur(10px);
+        border-radius: 0rem 0rem 0rem 1rem;
+        z-index: 9;
+    }
+    .Bar .Navbar li{
+        width: 100vw;
+        min-width: 20vh;
+        margin: 2rem 0rem 2rem 1rem;
+        text-align: center;
+    }
+    .Bar .Navbar li a{
+        color: black;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .Bar .Header a:hover {
+        font-size: 4vh;
+    }
+    .Bar .active {
+        font-size: 4vh;
+    }
+    #CheckBox:checked ~ .Navbar{
+        height: 20rem;
+        transition: 1s;
+    }
+    #CheckBox:checked ~ .Overlay{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 9;
+    }
+    .Bar .Header{
+        display: none;
+    }
+    #CheckBox{
+        display: none;
+    }
+}
+
+
+
+.Foto{
+    max-width: 100%;
+    min-height: 90svh;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-wrap: wrap;
-    font-size: 2.5vh;
-    list-style-type: none;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 5rem;
 }
-.Bar .Header{
-    display: flex;
+.Foto .W1, .Foto .W2, .Foto .W3{
     align-items: center;
-}
-.Bar .Header li{
-    width: 20vh;
-    max-width: 20vw;
-    margin: 2vh;
-    text-align: center;
-}
-.Bar .Header li a{
-    color: black;
-    text-decoration: none;
-    transition: 0.2s;
-}
-.Bar .MiriJožin{
-    margin: 0% 2vh;
-    font-size: 5vh;
-}
-.Bar .MiriJožin a{
-    color: black;
-    text-decoration: none;
-    font-family: EyesomeScript;
-}
-@media screen and (min-width: 80vh){
-    .Bar .active{
-        font-size: 4vh;
-    }
-    .Bar .Header a:hover{
-        font-size: 4vh;
-    }
-
-    .DressCode .Barvy{
-        min-width: 70vh;
-        min-height: 30vh;
-    }
-}
-
-
-
-.MJ-Line{
     display: flex;
     justify-content: center;
-    margin-top: 8rem;
     margin-bottom: 2rem;
-}
-.MJ-Line img{
-    width: 40svh;
-    max-width: 50vw;
-}
-
-
-
-.Pozvání{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-.Pozvání p{
-    font-size: calc(2.5vh + 0.5vw);
-    max-width: 100vh;
-    margin: 0rem 2rem 8vh 2rem;
-}
-
-
-
-.Basic-Info .Nadpis{
-    font-size: calc(2.5vh + 1.5vw);
-    text-transform: uppercase;
-    margin: 1rem;
-    text-align: center;
-}
-.Basic-Info .Mapa{
-    width: 100%;
-    height: 40vh;
-}
-.Basic-Info .Info-Kdy-Kde{
-    min-width: 60vw;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    text-align: center;
-}
-.Basic-Info .Info-Kdy-Kde .DScript{
-    font-family: DancingScript;
-}
-.Basic-Info .Info-Kdy-Kde p{
-    font-size: calc(2.5vh + 0.5vw);
-}
-.Basic-Info .Kdy, .Basic-Info .Kde{
-    margin: 5vh;
-}
-
-
-
-.Doprava{
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 2rem;
-    column-gap: 8rem;
-    row-gap: 2rem;
-}
-
-.Doprava .Left{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    gap: 2rem;
-}
-.Doprava .Nadpis{
-    font-family: JosefinSans-Bold;
-    font-size: calc(2.5vh + 1.5vw);
-    text-transform: uppercase;
-    width: 100%;
-}
-.Doprava .Text{
-    font-size: calc(2.5vh + 0.5vw);
-    max-width: 70vh;
-}
-
-.Doprava .Right img{
-    max-height: 70vh;
-    max-width: 80vw;
-    border-radius: 1rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
-
-
-
-.Dary{
+.Foto .H1, .Foto .H2, .Foto .H3{
+    align-items: center;
     display: flex;
     justify-content: center;
-    flex-wrap: wrap-reverse;
-    padding: 2rem;
-    column-gap: 8rem;
-    row-gap: 2rem;
-}
-
-.Dary .Left img{
-    max-height: 70vh;
-    max-width: 80vw;
-    border-radius: 1rem;
+    margin-bottom: 2rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
-
-.Dary .Right{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    gap: 2rem;
+.Foto .W1 img, .Foto .W2 img, .Foto .W3 img{
+    max-width: 40svh;
 }
-.Dary .Nadpis{
-    font-family: JosefinSans-Bold;
-    font-size: calc(2.5vh + 1.5vw);
-    text-transform: uppercase;
-    width: 100%;
-}
-.Dary .Text{
-    font-size: calc(2.5vh + 0.5vw);
-    max-width: 70vh;
-}
-
-.Dary a{
-    text-decoration: none;
-    color: black;
-}
-.Dary .SeznamDarů{
-    aspect-ratio: 3/1;
-    width: auto;
-    
-    border: solid 1px;
-    border-radius: 1rem;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    margin: 1rem;
-    padding: 1rem;
-    transition: 0.2s;
-}
-.Dary .SeznamDarů .B{
-    font-size: calc(2.5vh + 1.5vw);
-    text-transform: uppercase;
-    text-align: center;
-}
-.Dary .SeznamDarů .S{
-    font-size: calc(1.5vh + 0.5vw);
-    text-transform: uppercase;
-    text-align: center;
-}
-.Dary a .SeznamDarů:hover{
-    margin: 0.8rem;
-    padding: 1.2rem;
-    box-shadow: 0.2rem 0.2rem 5px gray;
-}
-
-
-
-.QR-Code{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-
-    margin: 8vh 2rem 2rem 2rem;
-}
-.QR-Code img{
-    max-height: 50vh;
-    max-width: 60vw;
-    border-radius: 1rem;
-}
-.QR-Code p{
-    font-size: calc(2.5vh + 0.5vw);
-}
-
-
-
-.DressCode{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: 2rem;
-    column-gap: 8rem;
-    row-gap: 2rem;
-}
-
-.DressCode .Left{
-    display: flex;
-    flex-direction: column;
-    margin: 1rem;
-    gap: 2rem;
-}
-.DressCode .Nadpis{
-    font-family: JosefinSans-Bold;
-    font-size: calc(2.5vh + 1.5vw);
-    text-transform: uppercase;
-    width: 100%;
-}
-.DressCode .Text{
-    font-size: calc(2.5vh + 0.5vw);
-    max-width: 70vh;
-}
-
-.DressCode .Barvy{
-    background-image: url(images/Barvy.jpeg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    aspect-ratio: 16/9;
-    max-height: 20vh;
-}
-
-.DressCode .Right img{
-    max-height: 70vh;
-    max-width: 80vw;
-    border-radius: 1rem;
-    box-shadow: 0.2rem 0.2rem 5px gray;
-}
-
-
-
-.Dotazy{
-    display: flex;
-    flex-direction: column;
-    justify-content: baseline;
-    text-align: center;
-    min-height: 50vh;
-    gap: 0vh;
-}
-.Dotazy p{
-    font-size: calc(2.5vh + 0.5vw);
-    margin: 0.2rem;
-}
-.Dotazy .Jméno{
-    margin-top: 8vh;
+.Foto .H1 img, .Foto .H2 img, .Foto .H3 img{
+    max-height: 60svh;
 }

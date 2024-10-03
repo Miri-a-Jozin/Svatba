@@ -28,58 +28,145 @@
 }
 
 
-
 body{
     background-color: white;
 }
 
 
 
-.Bar{
-    background-color: white;
-    max-width: 100svw;
-    height: auto;
-    position: sticky;
-    top: 0%;
-}
-.Bar ul{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    font-size: 2.5vh;
-    list-style-type: none;
-}
-.Bar .Header{
-    display: flex;
-    align-items: center;
-}
-.Bar .Header li{
-    width: 20vh;
-    max-width: 20vw;
-    margin: 2vh;
-    text-align: center;
-}
-.Bar .Header li a{
-    color: black;
-    text-decoration: none;
-    transition: 0.2s;
-}
-.Bar .MiriJožin{
-    margin: 0% 2vh;
-    font-size: 5vh;
-}
-.Bar .MiriJožin a{
-    color: black;
-    text-decoration: none;
-    font-family: EyesomeScript;
-}
-@media screen and (min-width: 80vh){
-    .Bar .active{
+@media (min-width: 155vh) {
+    .Bar{
+        background-color: white;
+        max-width: 100svw;
+        height: auto;
+        position: sticky;
+        top: 0%;
+        z-index: 1;
+    }
+    .Bar ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 2.5vh;
+        list-style-type: none;
+    }
+    .Bar .Header{
+        display: flex;
+        align-items: center;
+    }
+    .Bar .Header li{
+        width: 20vh;
+        max-width: 20vw;
+        margin: 2vh;
+        text-align: center;
+    }
+    .Bar .Header li a{
+        color: black;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .Bar .Header a:hover {
         font-size: 4vh;
     }
-    .Bar .Header a:hover{
+    .Bar .active {
         font-size: 4vh;
+    }
+    .Bar .MiriJožin{
+        margin: 0% 2vh;
+        font-size: 5vh;
+    }
+    .Bar .MiriJožin a{
+        color: black;
+        text-decoration: none;
+        font-family: EyesomeScript;
+    }
+    .Bar .Menu{
+        display: none;
+    }
+}
+
+
+@media (max-width: 155vh){
+    .Bar{
+        background-color: white;
+        max-width: 100svw;
+        height: auto;
+        position: sticky;
+        top: 0%;
+        z-index: 10;
+    }
+    .Bar ul{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        font-size: 3vh;
+        list-style-type: none;
+    }
+    .Bar .MiriJožin{
+        margin: 0% 2vh;
+        font-size: 5vh;
+    }
+    .Bar .MiriJožin a{
+        color: black;
+        text-decoration: none;
+        font-family: EyesomeScript;
+    }
+    .Bar .MenuIcon{
+        width: 2.5rem;
+        height: 5vh;
+        background-image: url("images/menu.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 1.5rem;
+    }
+
+    .Bar .Navbar{
+        height: 0%;
+        overflow: hidden;
+        transition: 1s;
+        position: absolute;
+        right: 0;
+        background-image: linear-gradient(white 30%, rgba(255, 255, 255, 0.322));
+        backdrop-filter: blur(10px);
+        border-radius: 0rem 0rem 0rem 1rem;
+        z-index: 9;
+    }
+    .Bar .Navbar li{
+        width: 100vw;
+        min-width: 20vh;
+        margin: 2rem 0rem 2rem 1rem;
+        text-align: center;
+    }
+    .Bar .Navbar li a{
+        color: black;
+        text-decoration: none;
+        transition: 0.2s;
+    }
+    .Bar .Header a:hover {
+        font-size: 4vh;
+    }
+    .Bar .active {
+        font-size: 4vh;
+    }
+    #CheckBox:checked ~ .Navbar{
+        height: 20rem;
+        transition: 1s;
+    }
+    #CheckBox:checked ~ .Overlay{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        left: 0;
+        right: 0;
+        z-index: 9;
+    }
+    .Bar .Header{
+        display: none;
+    }
+    #CheckBox{
+        display: none;
     }
 }
 
@@ -87,11 +174,11 @@ body{
 
 
 .ÚvodFoto{
-    background-image: url("images/Palečky\ Úvod.jpeg");
+    background-image: url("images/Svatba/Úvod.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    aspect-ratio: 4/3;
+    aspect-ratio: 2/1;
     
     display: flex;
     flex-direction: column;
@@ -110,6 +197,7 @@ body{
     color: white;
     position: relative;
     right: 7vw;
+    z-index: 0;
 }
 
 
