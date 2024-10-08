@@ -175,29 +175,31 @@ body{
 .Foto{
     max-width: 100%;
     min-height: 90svh;
+    display: grid;
+}
+.Foto .Sekce{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin-bottom: 5rem;
 }
-.Foto .W1, .Foto .W2, .Foto .W3{
+.Foto .W1{
     align-items: center;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
-.Foto .H1, .Foto .H2, .Foto .H3{
+.Foto .H1{
     align-items: center;
     display: flex;
     justify-content: center;
     margin-bottom: 2rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
-.Foto .W1 img, .Foto .W2 img, .Foto .W3 img{
+.Foto .W{
     max-width: 40svh;
 }
-.Foto .H1 img, .Foto .H2 img, .Foto .H3 img{
+.Foto .H{
     max-height: 60svh;
 }

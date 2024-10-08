@@ -130,6 +130,7 @@ body{
         right: 0;
         background-image: linear-gradient(white 30%, rgba(255, 255, 255, 0.322));
         backdrop-filter: blur(10px);
+        box-shadow: 0.2rem 0.2rem 5px rgba(255, 255, 255, 0.322);
         border-radius: 0rem 0rem 0rem 1rem;
         z-index: 9;
     }
