@@ -173,10 +173,39 @@ body{
 
 
 
+.MJ-Line{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.MJ-Line img{
+    width: 40svh;
+    max-width: 50vw;
+}
+
+
+
+.Úvod-Text{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 2rem 5rem 2rem;
+}
+.Úvod-Text p{
+    max-width: 100vh;
+    font-size: calc(2.5vh + 0.5vw);
+}
+
+
+
 .Foto{
     max-width: 100%;
-    min-height: 90svh;
     display: grid;
+    gap: 2rem;
 }
 .Foto .Sekce{
     display: flex;
@@ -184,23 +213,39 @@ body{
     justify-content: center;
     gap: 2rem;
 }
-.Foto .W1{
+.Foto .Sloupec{
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+.Foto a{
+    text-decoration: none;
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    margin-bottom: 0rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
+
 }
-.Foto .H1{
-    align-items: center;
+.Foto img{
+    max-width: 60svh;
+}
+
+
+
+.Konec-Text{
     display: flex;
+    flex-direction: column;
+    gap: 2vh;
     justify-content: center;
-    margin-bottom: 2rem;
-    box-shadow: 0.2rem 0.2rem 5px gray;
+    align-items: center;
+    text-align: center;
+    margin: 0rem 2rem 5rem 2rem;
 }
-.Foto .W{
-    max-width: 40svh;
+.Konec-Text p{
+    max-width: 100vh;
+    font-size: calc(2.5vh + 0.5vw);
 }
-.Foto .H{
-    max-height: 60svh;
+.Konec-Text p a{
+    text-decoration: none;
 }
