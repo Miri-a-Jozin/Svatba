@@ -231,10 +231,10 @@ body{
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
 .Foto .W{
-    max-width: 40svh;
+    max-width: 50svh;
 }
 .Foto .H{
-    max-height: 60svh;
+    max-height: 75svh;
 }
 
 

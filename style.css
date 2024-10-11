@@ -279,8 +279,8 @@ body{
     box-shadow: 0.2rem 0.2rem 5px gray;
 }
 .Foto .W1 img, .Foto .W2 img, .Foto .W3 img{
-    max-width: 40svh;
+    max-width: 50svh;
 }
 .Foto .H1 img, .Foto .H2 img, .Foto .H3 img{
-    max-height: 60svh;
+    max-height: 75svh;
 }

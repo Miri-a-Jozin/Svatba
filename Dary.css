@@ -212,6 +212,7 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    padding: 2rem;
 }
 .Foto .Sloupec{
     display: grid;
@@ -223,12 +224,12 @@ body{
     align-items: center;
     display: flex;
     justify-content: center;
-    margin-bottom: 0rem;
     box-shadow: 0.2rem 0.2rem 5px gray;
 
 }
 .Foto img{
-    max-width: 60svh;
+    max-height: 50svh;
+    max-width: 80SVW;
 }
 
 
